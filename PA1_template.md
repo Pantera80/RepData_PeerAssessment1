@@ -157,8 +157,7 @@ ActivityPerDay2 <- aggregate(steps ~ date, data = NewActivityData, sum)
 hist(ActivityPerDay2$steps, col = "red", main='Histogram of the Activity per Day')
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png) 
-
+![unnamed-chunk-10-1](https://cloud.githubusercontent.com/assets/13407406/13053432/c2d7e5d8-d404-11e5-9543-bf23cc8b132a.png)
 
 ```r
 Mean <- mean(ActivityPerDay2$steps)
@@ -213,4 +212,5 @@ library(lattice)
 xyplot(steps ~ interval | factor(dayType), data = StepsByIntervalandDay, aspect =1/2,type = "l", col= "red", lwd = 2, xlab= "5-min interval", ylab= "Averaged steps")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-14-1.png) 
+![unnamed-chunk-14-1](https://cloud.githubusercontent.com/assets/13407406/13053433/c3181fea-d404-11e5-9e71-1f23a87d9daf.png) 
+ 
