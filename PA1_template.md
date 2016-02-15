@@ -51,7 +51,7 @@ summary(ActivityPerDay)
 hist(ActivityPerDay$steps, col = "red", main='Histogram of the Activity per Day')
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-3-1.png) 
+![unnamed-chunk-3-1](https://cloud.githubusercontent.com/assets/13407406/13053429/c2a9b3ca-d404-11e5-8e59-ad2be1712d52.png) 
 
 **Response:** Total number of steps taken per day is the sum of the total steps corresponding to all the intervals related to a particular day. The histogram in the figure  above shows the frequency of the total steps per day grouped by intervals of 5000 steps.
 
