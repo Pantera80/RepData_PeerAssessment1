@@ -91,7 +91,7 @@ plot(steps ~ interval, data = StepsByInterval, type = "l", col ='blue', main=" A
      ylab = "Averaged steps", lwd = 3)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png) 
+![unnamed-chunk-6-1](https://cloud.githubusercontent.com/assets/13407406/13053431/c2c90bee-d404-11e5-9ad2-9fb1e4c6709d.png) 
 
 2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
